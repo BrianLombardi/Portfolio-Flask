@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+    </header>
+    <div class="container">
+        <section class="profile">
+            <img src="{{ url_for('static', filename='images/my-photo.jpg') }}" alt="Minha Foto" class="profile-pic">
+        </section>
+        <section>
+            <h2>Sobre Mim</h2>
+            <p>Olá! Meu nome é Brian Lombardi e sou um entusiasta iniciante na área de Tecnologia da Informação. Atualmente estou cursando ciência da computação, e estou empolgado para começar minha jornada profissional no mundo da TI.</p>
+            <p>Durante minha formação, estou tendo a oportunidade de aprender e trabalhar com várias tecnologias, incluindo programação em Python, desenvolvimento web com HTML, CSS, JavaScript, entre outros, e fundamentos de banco de dados. Embora eu esteja no início da minha carreira, estou sempre disposto a aprender e aprimorar minhas habilidades.</p>
+            <p>Sou apaixonado por resolver problemas e criar soluções inovadoras. Em meus projetos acadêmicos, explorei o desenvolvimento de aplicativos simples e sites, e estou ansioso para aplicar esses conhecimentos em projetos reais e desafiadores.</p>
+            <p>Fora do ambiente acadêmico, gosto de me manter atualizado com as últimas tendências tecnológicas e participar de comunidades online para aprender com outros profissionais e entusiastas da área.</p>
+            <p>Estou em busca de oportunidades para ganhar experiência prática e crescer como profissional na área de TI. Se você está procurando alguém dedicado e motivado para colaborar em projetos interessantes, adoraria conversar sobre como posso contribuir!</p>
+        </section>
+        <section>
+            <h2>Projetos</h2>
+            <div class="project">
+                <h3>Projeto 1: Aplicativo de Lista de Tarefas</h3>
+                <p>Desenvolvi um aplicativo simples de lista de tarefas utilizando HTML, CSS e JavaScript. O projeto permite aos usuários adicionar, editar e remover tarefas, e visualizá-las em uma lista organizada. Este foi um ótimo exercício para aprimorar minhas habilidades em desenvolvimento front-end e gerenciamento de estado.</p>
+            </div>
+            <div class="project">
+                <h3>Projeto 2: Site Pessoal</h3>
+                <p>Criei um site pessoal para exibir minhas habilidades e projetos. Utilizei HTML e CSS para o design e a estrutura do site, com um layout responsivo que se adapta a diferentes tamanhos de tela. O site inclui seções sobre mim, meus projetos e informações de contato.</p>
+            </div>
+            <div class="project">
+                <h3>Projeto 3: Sistema de Registro de Usuários</h3>
+                <p>Desenvolvi um sistema básico de registro de usuários com Python e Flask. Este projeto inclui funcionalidades para cadastro e autenticação de usuários, e um painel de administração simples para gerenciar as informações dos usuários. Foi uma excelente oportunidade para aprender mais sobre desenvolvimento back-end e bancos de dados.</p>
+            </div>
+            <div class="project">
+                <h3>Projeto 4: API de Clima</h3>
+                <p>Criei uma API simples que fornece informações sobre o clima usando uma API pública de clima. O projeto foi feito com Python e Flask, e permite que os usuários consultem as condições meteorológicas atuais para diferentes cidades. Este projeto me ajudou a entender melhor a integração de APIs e o tratamento de dados JSON.</p>
+            </div>
+        </section>
+        <section>
+            <h2>Contato</h2>
+            <p>E-mail: Brianlombardi.2003@gmail.com</p>
+            <p>Github: <a href="https://github.com/BrianLombardi" target="_blank">BrianLombardi</a></p>
+        </section>
+    </div>
+</body>
+</html>
